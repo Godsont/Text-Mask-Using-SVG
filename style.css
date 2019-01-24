@@ -1,0 +1,44 @@
+* {
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+
+svg {
+  position: absolute;
+  top:0;
+  left:0;
+  height:100vh;
+  width:100%;
+}
+
+#gtheading {
+  font-family:"Raleway";
+  font-size:120px;
+  letter-spacing:16px;
+  text-transform: uppercase;
+}
+
+.bg-video {
+  margin:0 auto;
+  overflow:hidden;
+  width:100%;
+  height:100vh;
+}
+
+#mask-bg {
+  mask:url("#mask");
+}
+
+@media(max-width:1024px) {
+  #gtheading {
+    font-size:72px;
+    letter-spacing:unset;
+  }
+}
+
+@media(max-width:600px) {
+  #gtheading {
+    font-size:60px;
+  }
+}
